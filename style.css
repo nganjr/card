@@ -1,0 +1,96 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: beige;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: darkolivegreen;
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  height: 5rem;
+  position: sticky;
+  align-items: center;
+  border-radius: 25px;
+  top: 0;
+  box-shadow: 7px 5px 9px 7px rgba(0, 0, 0, 0.5);
+}
+
+.container {
+  padding: 10px 20px 25px 20px;
+  background-color: bisque;
+}
+
+.logo:hover {
+  font-size: 20px;
+  cursor: pointer;
+}
+.right-tab {
+  display: flex;
+  justify-content: space-between;
+}
+.right-tab:hover {
+  cursor: pointer;
+}
+
+.home {
+  padding: 0.5rem;
+}
+.home:hover {
+  font-size: 30px;
+}
+
+.sign-in {
+  padding: 0.5rem;
+  border-radius: 25px;
+  border-color: cornsilk;
+}
+.sign-in:hover {
+  font-size: 20px;
+  font-weight: bold;
+  color: orange;
+}
+
+.About {
+  padding: 0.5rem;
+}
+.About:hover {
+  font-size: 20px;
+}
+
+.aside-main {
+  display: flex;
+}
+
+aside {
+  min-width: 20rem;
+  overflow: auto;
+  max-height: calc(100svh - 85.6px);
+  position: fixed;
+  background-color: grey;
+  min-height: calc(100svh - 85.6px);
+  padding-left: 20px;
+  padding-right: 10px;
+  border-radius: 25px;
+  padding-top: 10px;
+}
+
+main {
+  margin-left: 20rem;
+  min-width: 20rem;
+  background-color: lavender;
+  padding-left: 10px;
+  padding-top: 10px;
+  border-radius: 25px;
+}
+
+a {
+  text-decoration: none;
+}
